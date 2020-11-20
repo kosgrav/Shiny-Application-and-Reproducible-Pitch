@@ -5,18 +5,48 @@
 ---
 title: "Analysis of the mtcars Dataset"
 
+
 output:
+  
   slidy_presentation: default
+  
   html_document:
-    number_sections: yes
-    toc: yes
+  
+  
+  number_sections: yes
+  
+  toc: yes
+  
   ioslides_presentation: default
+  
 mode: selfcontained
+
 job: Reproducible Pitch Presentation
+
 subtitle: Variables and MPG
+
 highlighter: highlight.js
+
 widgets: bootstrap
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,8 +60,15 @@ widgets: bootstrap
 > The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models).
 ### Source
 > Henderson and Velleman (1981), Building multiple regression models interactively. Biometrics, 37, 391-411.
+
 ```{r}
+
 library(datasets)
+
+
+
+
+
 head(mtcars, 3)
 ```
 ---
